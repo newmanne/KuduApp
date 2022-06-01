@@ -1,0 +1,1 @@
+# See https://github.com/fcornelius/django-firebase-auth

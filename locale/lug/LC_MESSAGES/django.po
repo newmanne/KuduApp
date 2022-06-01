@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-27 09:39+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: agrotrade/i18n.py:9
+msgid "Enter a whole number."
+msgstr "Tekamu enamba enzijuvu"
+
+#: agrotrade/marketinfo.py:100
+#, python-format
+msgid "No price information is available for %(produce)s in %(location)s."
+msgstr "Tewali mawulire ga miwendo galiwo aga %(produce)s mu %(location)s."
+
+#: agrotrade/marketinfo.py:101
+#, python-format
+msgid "Average price for %(produce)s in %(location)s is %(price)d/=."
+msgstr "Emiwendo egya wakati egya %(produce)s mu %(location)s gili %(price)d/=."
+
+#: agrotrade/models.py:842
+msgid "Buy"
+msgstr "Okugula"
+
+#: agrotrade/models.py:843
+msgid "Sell"
+msgstr "Okutunda"
+
+#: agrotrade/models.py:844
+msgid "Price Information"
+msgstr "Ebikwata ku bbeeyi"
+
+#: agrotrade/models.py:845
+msgid "Block Farmer / Trader"
+msgstr "Ssaagala Ono Omulimi/Omusuubuzi"
+
+#: agrotrade/settings/base.py:43
+msgid "English"
+msgstr ""
+
+#: agrotrade/settings/base.py:44
+msgid "Luganda"
+msgstr ""
+
+#: agrotrade/settings/base.py:45
+msgid "Luo"
+msgstr ""
+
+#: agrotrade/settings/base.py:46
+msgid "Runyakitara"
+msgstr ""
+
+#: agrotrade/templates/admin/base_site.html:4
+msgid "Agrotrade admin"
+msgstr "Agrotrade admin"
+
+#: agrotrade/templates/admin/base_site.html:7
+msgid "Agrotrade administration"
+msgstr "Agrotrade administration"
+
+#: agrotrade/ussd/ussd_menus.py:173
+msgid "Welcome to Kudu! Please reply with:"
+msgstr "Tukwaniriza ku Kudu! Bambi ddamu ne:"
+
+#: agrotrade/ussd/ussd_menus.py:206
+#, python-format
+msgid "Enter quantity in %(unit)s"
+msgstr "Teekamu Obunji mu %(unit)s"
+
+#: agrotrade/ussd/ussd_menus.py:231
+#, python-format
+msgid "Enter unit price (per %(unit)s)"
+msgstr "Teekamu ebbeeyi eya buli (per %(unit)s)"
+
+#: agrotrade/ussd/ussd_menus.py:291
+msgid "What crop would you like to buy?"
+msgstr "Kirime ki kye wandyetaaze okugula?"
+
+#: agrotrade/ussd/ussd_menus.py:293
+msgid "What crop would you like to sell?"
+msgstr "Kirime ki kye wandyetaaze okutunda?"
+
+#: agrotrade/ussd/ussd_menus.py:295
+msgid "What crop would you like price information about?"
+msgstr "Kirime ki kye wandyetaaze okutegeerako amuwulire ge bbeeyi?"
+
+#: agrotrade/ussd/ussd_menus.py:314
+msgid "Other"
+msgstr "Ebirala"
+
+#: agrotrade/ussd/ussd_menus.py:340
+msgid "Enter crop"
+msgstr "Teekamu ekirime"
+
+#: agrotrade/ussd/ussd_menus.py:356
+msgid "Select option below or enter 0 and try again"
+msgstr "Londako ku bino wammanga oba teekamu 0 oddemu ogezeeko"
+
+#: agrotrade/ussd/ussd_menus.py:436
+msgid "Price location"
+msgstr "Ekifo ebbeeyi weeri"
+
+#: agrotrade/ussd/ussd_menus.py:441
+msgid "Search parish"
+msgstr "Noonya omuluka"
+
+#: agrotrade/ussd/ussd_menus.py:442
+msgid "Search subcounty"
+msgstr "Noonya eggombolola"
+
+#: agrotrade/ussd/ussd_menus.py:443
+msgid "Search district"
+msgstr "Noonya district"
+
+#: agrotrade/ussd/ussd_menus.py:444
+msgid "Search region"
+msgstr "Noonya ekitundu"
+
+#: agrotrade/ussd/ussd_menus.py:468
+msgid "Select region"
+msgstr "Londa ekitundu"
+
+#: agrotrade/ussd/ussd_menus.py:495
+msgid "Select district"
+msgstr "Londa district"
+
+#: agrotrade/ussd/ussd_menus.py:518
+#, python-format
+msgid "Enter %(location_type)s name"
+msgstr "Teekamu erinnya lya %(location_type)s"
+
+#: agrotrade/ussd/ussd_menus.py:536
+msgid "Select option below or enter 0 to try again"
+msgstr "Londako ku bino wammanga oba teekamu 0 oddemu ogezeeko"
+
+#: agrotrade/ussd/ussd_menus.py:580
+#, python-format
+msgid "Do you mean: %(location)s"
+msgstr "Otegeeza: %(location)s"
+
+#: agrotrade/ussd/ussd_menus.py:582
+msgid "Yes"
+msgstr "Yee"
+
+#: agrotrade/ussd/ussd_menus.py:585
+msgid "No"
+msgstr "Nedda"
+
+#: agrotrade/ussd/ussd_menus.py:587
+msgid "Previous"
+msgstr "Emabegako"
+
+#: agrotrade/ussd/ussd_menus.py:623
+msgid "To buy or sell on Kudu, we need to know your parish."
+msgstr "Okugula oba okutunda ku Kudu, twetaaga okumanya omuluka gwo."
+
+#: agrotrade/ussd/ussd_menus.py:625
+msgid "OK"
+msgstr "Kale"
+
+#: agrotrade/ussd/ussd_menus.py:647
+#, python-format
+msgid "Confirm your parish is %(parish)s"
+msgstr "Kakasa omuluka gwo: %(parish)s"
+
+#: agrotrade/ussd/ussd_menus.py:649 agrotrade/ussd/ussd_menus.py:686
+#: agrotrade/ussd/ussd_menus.py:717 agrotrade/ussd/ussd_menus.py:746
+msgid "Submit"
+msgstr "Wereza"
+
+#: agrotrade/ussd/ussd_menus.py:666
+#, python-format
+msgid "Successfully registered your parish as %(parish)s"
+msgstr "Omuluka gwo guwandiisiddwa nga: %(parish)s"
+
+#: agrotrade/ussd/ussd_menus.py:669
+msgid "Continue"
+msgstr "Weeyongereyo"
+
+#: agrotrade/ussd/ussd_menus.py:683
+#, python-format
+msgid "Sell %(quantity)s %(unit)s of %(produce)s for %(price)s/= per %(unit)s?"
+msgstr ""
+"Ntunda %(quantity)s %(unit)s eza %(produce)s ku %(price)s/= buli %(unit)s"
+
+#: agrotrade/ussd/ussd_menus.py:687 agrotrade/ussd/ussd_menus.py:718
+#: agrotrade/ussd/ussd_menus.py:748 agrotrade/ussd/ussd_menus.py:793
+msgid "Main menu"
+msgstr "Endagiriro enkulu"
+
+#: agrotrade/ussd/ussd_menus.py:704
+#, python-format
+msgid ""
+"Your sell of %(quantity)s %(unit)s of %(produce)s for %(price)s/= per "
+"%(unit)s has been placed on the market.\n"
+"You can call 0780997402 for help."
+msgstr ""
+"Okusaba kwo okw'okutunda %(quantity)s %(unit)s eza %(produce)s ku %(price)s/"
+"= buli %(unit)s kuteeleddwa ku kataleOsobola okutukubila ku 0780997402 "
+"okuyambibwa."
+
+#: agrotrade/ussd/ussd_menus.py:714
+#, python-format
+msgid "Buy %(quantity)s %(unit)s of %(produce)s for %(price)s/= per %(unit)s?"
+msgstr ""
+"Ngula %(quantity)s %(unit)s eza %(produce)s ku %(price)s/= buli %(unit)s"
+
+#: agrotrade/ussd/ussd_menus.py:735
+#, python-format
+msgid ""
+"Your bid of %(quantity)s %(unit)s of %(produce)s for %(price)s/= per "
+"%(unit)s has been placed on the market.\n"
+"You can call 0780997402 for help."
+msgstr ""
+"Okusaba kwo okw'okugula %(quantity)s %(unit)s eza %(produce)s ku %(price)s/= "
+"buli %(unit)s kuteeleddwa ku kataleOsobola okutukubila ku 0780997402 "
+"okuyambibwa."
+
+#: agrotrade/ussd/ussd_menus.py:743
+msgid "All of Uganda"
+msgstr ""
+
+#: agrotrade/ussd/ussd_menus.py:744
+#, python-format
+msgid "Price for %(produce)s"
+msgstr "Ebbeeyi ya %(produce)s"
+
+#: agrotrade/ussd/ussd_menus.py:747
+#, python-format
+msgid "Specify location (now: %(location)s)"
+msgstr "Lambulula ekifo (kati: %(location)s)"
+
+#: agrotrade/ussd/ussd_menus.py:772
+msgid "Enter mobile number to block"
+msgstr "Teekamu ennamba y'essimu ey'okujjamu"
+
+#: agrotrade/ussd/ussd_menus.py:792
+#, python-format
+msgid "Block %(phone_number)s"
+msgstr "Ey'okujjamu %(phone_number)s"
+
+#: agrotrade/ussd/ussd_menus.py:809
+#, python-format
+msgid ""
+"Successfully blocked %(phone_number)s, you will no longer be matched with "
+"this person."
+msgstr ""
+"Egyidwamu bulungi %(phone_number)s togya kudamu kuyungibwa n'omuntu ono."
+
+#: agrotrade/ussd/ussd_menus.py:829
+#, python-format
+msgid "Enter a whole number, without %(unit)s"
+msgstr "Tekamu enamba nga tekuli bipimo %(unit)s"
+
+#: agrotrade/ussd/ussd_menus.py:844 agrotrade/validators.py:8
+#, python-format
+msgid "Phone number %(value)s looks incorrect"
+msgstr "Ennamba y'essimu %(value)s elabika nga enfu"
+
+#: agrotrade/ussd/ussd_menus.py:850
+#, python-format
+msgid "No Kudu user registered with phone number %(value)s"
+msgstr "Tewali akozesa kudu yeewandisa ne nnamba eno %(value)s"
+
+#: agrotrade/ussd/ussd_node.py:58
+msgid "Please reply with:"
+msgstr "Bambi ddamu ne:"
+
+#: agrotrade/ussd/ussd_node.py:81 agrotrade/ussd/ussd_node.py:137
+msgid "Back"
+msgstr "Ddayo"
+
+#: agrotrade/ussd/ussd_node.py:91
+#, python-format
+msgid "Unexpected input %(user_input)s not a digit"
+msgstr "Kyoyingizamu, %(user_input)s si namba"
+
+#: agrotrade/ussd/ussd_node.py:99
+#, python-format
+msgid "Input %(user_input)s is not a valid menu choice"
+msgstr "Kyoyingizamu %(user_input)s si kyakulondako kitufu ku ndagiliro"
+
+#: agrotrade/ussd/ussd_node.py:107
+msgid "Unexpected error processing that choice"
+msgstr "Wabaddewo nsobi etasuubirwa mu kukola ku kulondako kwo"
+
+#: agrotrade/validators.py:14
+msgid "Value must be positive"
+msgstr "Omuwendo guteka okuba nga guli waggulu wa 0"
+
+#: send_sms.py:44
+msgid "Message not sent: Unknown or missing parameter."
+msgstr ""
+
+#~ msgid "Specify period (now: Past %(days)s days)"
+#~ msgstr "Lambulula ekiseera (kati: Ekiyise %(days)s days)"
+
+#~ msgid "Price period"
+#~ msgstr "Muwendo gwe'kisera"
+
+#~ msgid "1 day"
+#~ msgstr "Lunaku lumu"
+
+#~ msgid "2 days"
+#~ msgstr "Nnaku 2"
+
+#~ msgid "3 days"
+#~ msgstr "Nnaku 3"
+
+#~ msgid "7 days"
+#~ msgstr "Nnaku 7"

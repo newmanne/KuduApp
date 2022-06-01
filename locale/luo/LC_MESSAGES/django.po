@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-27 09:39+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: agrotrade/i18n.py:9
+msgid "Enter a whole number."
+msgstr "Ket numba olu"
+
+#: agrotrade/marketinfo.py:100
+#, python-format
+msgid "No price information is available for %(produce)s in %(location)s."
+msgstr "Wel pe tye pi %(produce)s yi %(location)s."
+
+#: agrotrade/marketinfo.py:101
+#, python-format
+msgid "Average price for %(produce)s in %(location)s is %(price)d/=."
+msgstr "Wel ame i dyere dyere pi %(produce)s yi %(location)s tye %(price)d/=."
+
+#: agrotrade/models.py:842
+msgid "Buy"
+msgstr "Wil"
+
+#: agrotrade/models.py:843
+msgid "Sell"
+msgstr "Cat"
+
+#: agrotrade/models.py:844
+msgid "Price Information"
+msgstr "Wel Jemi"
+
+#: agrotrade/models.py:845
+msgid "Block Farmer / Trader"
+msgstr "Geng Apur / Acat wil"
+
+#: agrotrade/settings/base.py:43
+msgid "English"
+msgstr ""
+
+#: agrotrade/settings/base.py:44
+msgid "Luganda"
+msgstr ""
+
+#: agrotrade/settings/base.py:45
+msgid "Luo"
+msgstr ""
+
+#: agrotrade/settings/base.py:46
+msgid "Runyakitara"
+msgstr ""
+
+#: agrotrade/templates/admin/base_site.html:4
+msgid "Agrotrade admin"
+msgstr "Agrotrade admin"
+
+#: agrotrade/templates/admin/base_site.html:7
+msgid "Agrotrade administration"
+msgstr "Agrotrade administration"
+
+#: agrotrade/ussd/ussd_menus.py:173
+msgid "Welcome to Kudu! Please reply with:"
+msgstr "Wa Joli i Kudu! Dwok ki:"
+
+#: agrotrade/ussd/ussd_menus.py:206
+#, python-format
+msgid "Enter quantity in %(unit)s"
+msgstr "Ket dwong me jemi i %(unit)s"
+
+#: agrotrade/ussd/ussd_menus.py:231
+#, python-format
+msgid "Enter unit price (per %(unit)s)"
+msgstr "Ket wel (ikom %(unit)s)"
+
+#: agrotrade/ussd/ussd_menus.py:291
+msgid "What crop would you like to buy?"
+msgstr "Imito wilo nying cem ango?"
+
+#: agrotrade/ussd/ussd_menus.py:293
+msgid "What crop would you like to sell?"
+msgstr "Imito cato nying cem ango?"
+
+#: agrotrade/ussd/ussd_menus.py:295
+msgid "What crop would you like price information about?"
+msgstr "Imito ngeyo wel pi nying cem ango?"
+
+#: agrotrade/ussd/ussd_menus.py:314
+msgid "Other"
+msgstr "En mukene"
+
+#: agrotrade/ussd/ussd_menus.py:340
+msgid "Enter crop"
+msgstr "Ket nyig cem"
+
+#: agrotrade/ussd/ussd_menus.py:356
+msgid "Select option below or enter 0 and try again"
+msgstr "Yer ki I kin jemi ma ki coyo ping kany onyo co 0 ka dak i tem odoco"
+
+#: agrotrade/ussd/ussd_menus.py:436
+msgid "Price location"
+msgstr "Kabedo me wel"
+
+#: agrotrade/ussd/ussd_menus.py:441
+msgid "Search parish"
+msgstr "Yeny adwol"
+
+#: agrotrade/ussd/ussd_menus.py:442
+msgid "Search subcounty"
+msgstr "Yeny gombolola"
+
+#: agrotrade/ussd/ussd_menus.py:443
+msgid "Search district"
+msgstr "Yeny distric"
+
+#: agrotrade/ussd/ussd_menus.py:444
+msgid "Search region"
+msgstr "Yeny wan tic"
+
+#: agrotrade/ussd/ussd_menus.py:468
+msgid "Select region"
+msgstr "Yer wang tic"
+
+#: agrotrade/ussd/ussd_menus.py:495
+msgid "Select district"
+msgstr "Yer distric"
+
+#: agrotrade/ussd/ussd_menus.py:518
+#, python-format
+msgid "Enter %(location_type)s name"
+msgstr "Ket %(location_type)s ying"
+
+#: agrotrade/ussd/ussd_menus.py:536
+msgid "Select option below or enter 0 to try again"
+msgstr "Yer ki I kin jemi ma ki coyo ping kany onyo co 0 ka dak i tem odoco"
+
+#: agrotrade/ussd/ussd_menus.py:580
+#, python-format
+msgid "Do you mean: %(location)s"
+msgstr "I kobo ni: %(location)s"
+
+#: agrotrade/ussd/ussd_menus.py:582
+msgid "Yes"
+msgstr "Yee"
+
+#: agrotrade/ussd/ussd_menus.py:585
+msgid "No"
+msgstr "Pe Yee"
+
+#: agrotrade/ussd/ussd_menus.py:587
+msgid "Previous"
+msgstr "En ma angech"
+
+#: agrotrade/ussd/ussd_menus.py:623
+msgid "To buy or sell on Kudu, we need to know your parish."
+msgstr "Me wilo onyo cato I kudu, myero wa nge adwol ni."
+
+#: agrotrade/ussd/ussd_menus.py:625
+msgid "OK"
+msgstr "Kakare"
+
+#: agrotrade/ussd/ussd_menus.py:647
+#, python-format
+msgid "Confirm your parish is %(parish)s"
+msgstr "I kobo ni adwol ni obedo: %(parish)s"
+
+#: agrotrade/ussd/ussd_menus.py:649 agrotrade/ussd/ussd_menus.py:686
+#: agrotrade/ussd/ussd_menus.py:717 agrotrade/ussd/ussd_menus.py:746
+msgid "Submit"
+msgstr "Cwal"
+
+#: agrotrade/ussd/ussd_menus.py:666
+#, python-format
+msgid "Successfully registered your parish as %(parish)s"
+msgstr "Coyo adwol ni odonyo maber ki ninying me: %(parish)s"
+
+#: agrotrade/ussd/ussd_menus.py:669
+msgid "Continue"
+msgstr "Mede anyim"
+
+#: agrotrade/ussd/ussd_menus.py:683
+#, python-format
+msgid "Sell %(quantity)s %(unit)s of %(produce)s for %(price)s/= per %(unit)s?"
+msgstr "Cat %(quantity)s %(unit)s me %(produce)s pi %(price)s/= ikom %(unit)s?"
+
+#: agrotrade/ussd/ussd_menus.py:687 agrotrade/ussd/ussd_menus.py:718
+#: agrotrade/ussd/ussd_menus.py:748 agrotrade/ussd/ussd_menus.py:793
+msgid "Main menu"
+msgstr "Kana kum kop adwonge tye iyer"
+
+#: agrotrade/ussd/ussd_menus.py:704
+#, python-format
+msgid ""
+"Your sell of %(quantity)s %(unit)s of %(produce)s for %(price)s/= per "
+"%(unit)s has been placed on the market.\n"
+"You can call 0780997402 for help."
+msgstr ""
+"Cat ni me %(quantity)s %(unit)s me %(produce)s pi %(price)s/= ikom %(unit)s "
+"ki keto i cuk.\n"
+"Iromo goyo cim numba 0780997402 me nwongo kony."
+
+#: agrotrade/ussd/ussd_menus.py:714
+#, python-format
+msgid "Buy %(quantity)s %(unit)s of %(produce)s for %(price)s/= per %(unit)s?"
+msgstr "Wil %(quantity)s %(unit)s me %(produce)s pi %(price)s/= ikom %(unit)s?"
+
+#: agrotrade/ussd/ussd_menus.py:735
+#, python-format
+msgid ""
+"Your bid of %(quantity)s %(unit)s of %(produce)s for %(price)s/= per "
+"%(unit)s has been placed on the market.\n"
+"You can call 0780997402 for help."
+msgstr ""
+"Wil ni me %(quantity)s %(unit)s me %(produce)s pi %(price)s/= ikom %(unit)s "
+"ki keto i cuk.\n"
+"Iromo goyo cim numba 0780997402 me nwongo kony."
+
+#: agrotrade/ussd/ussd_menus.py:743
+msgid "All of Uganda"
+msgstr ""
+
+#: agrotrade/ussd/ussd_menus.py:744
+#, python-format
+msgid "Price for %(produce)s"
+msgstr "Wel pi %(produce)s"
+
+#: agrotrade/ussd/ussd_menus.py:747
+#, python-format
+msgid "Specify location (now: %(location)s)"
+msgstr "Nyut kabedo (kumbedi: %(location)s)"
+
+#: agrotrade/ussd/ussd_menus.py:772
+msgid "Enter mobile number to block"
+msgstr "Ket numba ma myero ki geng"
+
+#: agrotrade/ussd/ussd_menus.py:792
+#, python-format
+msgid "Block %(phone_number)s"
+msgstr "Geng %(phone_number)s"
+
+#: agrotrade/ussd/ussd_menus.py:809
+#, python-format
+msgid ""
+"Successfully blocked %(phone_number)s, you will no longer be matched with "
+"this person."
+msgstr "Numba ogenge %(phone_number)s, dong pe ki bi kupi kede dano eni."
+
+#: agrotrade/ussd/ussd_menus.py:829
+#, python-format
+msgid "Enter a whole number, without %(unit)s"
+msgstr "Ket numba olu keken, labongo %(unit)s"
+
+#: agrotrade/ussd/ussd_menus.py:844 agrotrade/validators.py:8
+#, python-format
+msgid "Phone number %(value)s looks incorrect"
+msgstr "Numba cim %(value)s cal ki gin ma pe tye ati"
+
+#: agrotrade/ussd/ussd_menus.py:850
+#, python-format
+msgid "No Kudu user registered with phone number %(value)s"
+msgstr "Pe tye ngat mo ma tiyo ki Kudu ma ocoye ki numba cim %(value)s"
+
+#: agrotrade/ussd/ussd_node.py:58
+msgid "Please reply with:"
+msgstr "Dwok kwena ki:"
+
+#: agrotrade/ussd/ussd_node.py:81 agrotrade/ussd/ussd_node.py:137
+msgid "Back"
+msgstr "Dok angech"
+
+#: agrotrade/ussd/ussd_node.py:91
+#, python-format
+msgid "Unexpected input %(user_input)s not a digit"
+msgstr "Gin ma i coyo ni pe orwate, %(user_input)s pe numba"
+
+#: agrotrade/ussd/ussd_node.py:99
+#, python-format
+msgid "Input %(user_input)s is not a valid menu choice"
+msgstr "Gin ma icoyo ni %(user_input)s pe I kin ena iromo yero"
+
+#: agrotrade/ussd/ussd_node.py:107
+msgid "Unexpected error processing that choice"
+msgstr "Wa nwongo peko i kare ma otye ka yenyo gin ma i yero ni"
+
+#: agrotrade/validators.py:14
+msgid "Value must be positive"
+msgstr "Numba ma kato 0"
+
+#: send_sms.py:44
+msgid "Message not sent: Unknown or missing parameter."
+msgstr ""
+
+#~ msgid "Specify period (now: Past %(days)s days)"
+#~ msgstr "Nyut kare (kumbedi: Okato angench %(days)s nino)"
+
+#~ msgid "Price period"
+#~ msgstr "Kare pa wel"
+
+#~ msgid "1 day"
+#~ msgstr "1 nino"
+
+#~ msgid "2 days"
+#~ msgstr "2 nino"
+
+#~ msgid "3 days"
+#~ msgstr "3 nino"
+
+#~ msgid "7 days"
+#~ msgstr "7 nino"
